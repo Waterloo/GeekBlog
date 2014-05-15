@@ -9,9 +9,9 @@ Git Repo of The Upcoming Geektips Site. Feel Free to Fork The Repo. Because Shar
 
 
 
-#Contributers 
+###Contributers 
 
-###Wayne 
-###Stark
-###Kent
-###Eby
+#####Wayne 
+#####Stark
+#####Kent
+#####Eby
