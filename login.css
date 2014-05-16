@@ -65,7 +65,7 @@ font-size: 20px;
 {		
 #box
 {
-overflow:auto;	
+	overflow:hidden;	
 	background-color: white;
 	width:50%;
 	height:45%;
