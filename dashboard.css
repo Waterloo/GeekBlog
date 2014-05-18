@@ -13,11 +13,13 @@ body
 	
 	background-color:#E6E6FA;
 }
-
+	
+	
+	
 #header
 {
 	
-	height:5%;
+	height:6%;
 	
 	width:90%;
 	
@@ -25,19 +27,20 @@ body
 	
 	position: fixed;
 	left:10%;
-	line-height: 150%;
-	font-size: 150%;
+	line-height: 140%;
+	font-size: 130%;
 	text-align:Center;
 	font-weight:bolder;
 	color:white;
+	z-index: 100;
 }
 
 
 .pic
 {
 	
-	width:40px;
-	height:40px	;
+	width:35px;
+	height:30px	;
 	float: right;
 
 }
@@ -56,7 +59,8 @@ padding-top: 20px;
 
 #sidebar
 {
-	padding-top: 3%;
+	padding-top:50px;
+	
 	position: fixed;
 	width:11%;
 	height:100%;
@@ -113,11 +117,14 @@ li a
 #videos {
 	width: 48%;
 	height:50%;
+
 margin-right: 2%;
 	float: left;
 		overflow-y:auto;
 			box-shadow: 10px 10px 5px #9999F3;
-	margin-top: 4%;
+	margin-top: 3%;
+	overflow-x: auto;
+	
 }
 
 #finds {
@@ -126,7 +133,9 @@ margin-right: 2%;
 	float:left;
 	overflow-y:auto;
 			box-shadow: 10px 10px 5px #9999F3;
-	margin-top: 4%;
+	margin-top: 3%;
+	margin-bottom: 25px;
+	
 }
 
 #feed {
@@ -134,8 +143,10 @@ margin-right: 2%;
 	width:98%;
    	height:99%;
   	overflow-y:auto;
+	
 	box-shadow: 20px 10px 10px #CCCCF3 ;
-	margin-top: 40%;
+	margin-top:41%;
+	
 }
 
 .fnd_cont {
@@ -150,7 +161,10 @@ border-top-width:medium;
 	line-height: 70px;
 	color: orange;
 	margin-top: 5px;
-	font-size: 20px;
+	font-size: 16px;
+	
+		width: auto;
+	overflow: hidden;
 }
 
 .lin
@@ -162,6 +176,9 @@ border-top-width:medium;
 
 .vid_cont {
 	list-style: none;
+	
+		width: auto;
+	overflow: hidden;
 	box-shadow: 3px 5px 5px #f1f1f1;
 border-top-color:red;
 border-top-style:solid;
@@ -173,6 +190,18 @@ border-top-width:thin;
 	color: orange;
 	margin-top: 5px;
 }
+	
+	.v_link
+	{
+		color:red;
+		position:relative;
+		top:-35%;
+		 font-size: 16px;
+		overflow-x:auto;
+		
+		width: auto;
+	overflow: hidden;
+	}
 
 .vid_cont img
 {
@@ -180,4 +209,67 @@ border-top-width:thin;
 	height:70px;
 	width:100px;
 	
+
+}
+	
+	#feed_cont
+	{
+		
+		padding-top: 2%;
+		
+	}
+
+	.post_title
+	{
+		
+		color: green;
+		font-size: 25px;
+		font-weight:lighter;
+		margin-bottom: 30px;
+			font-family: fantasy;
+			padding-right: 3px;
+	padding-left: 15px;
+
+	}
+	
+
+.post_content {
+	font-weight: 100;
+	font-family: fantasy;
+	font-size: 18px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-bottom: solid;
+	border-width:2;
+	border-color: red;
+	padding-bottom: 20px;
+	margin-bottom: 25px;
+	line-height: 50px;
+}
+
+
+.post_content img
+{
+	
+	height:60%;
+	width:100%;
+}
+
+.clear {
+	width:100%;
+	height:80px;
+	position:absolute;
+	top:53%;
+	opacity: 0;
+}
+
+#vid_contents {
+		width: auto;
+	overflow: hidden;
+}
+
+#finds_content {
+	
+		width: auto;
+	overflow: hidden;
 }
